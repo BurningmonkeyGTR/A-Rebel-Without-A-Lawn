@@ -51,16 +51,16 @@ function checkAnswers(){
         score = score + 0
     }
     if (score <= 4){
-        resultDiv.innerHTML = "<img src=\"vegPatch.jpg\" alt=\"A photo of a vegetable patch\"><br><p>Ypuu should replace your lawn with a vegetable patch<br><br>Photo by <a href=\"https://unsplash.com/@sigmund?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Sigmund</a> on <a href=\"https://unsplash.com/photos/green-plant-on-brown-soil-hlC6OwRSQFs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a></p>";
+        resultDiv.innerHTML = "<img src=\"vegPatch.jpg\" alt=\"A photo of a vegetable patch\"><br><p>You should replace your lawn with a vegetable patch<br><br>Photo by <a href=\"https://unsplash.com/@sigmund?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Sigmund</a> on <a href=\"https://unsplash.com/photos/green-plant-on-brown-soil-hlC6OwRSQFs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a></p>";
     }
     else if (score <= 8){
-        resultDiv.innerHTML = "<img src=\"shrubbery.jpg\" alt=\"a shrubbery\"><br><p>Ypuu should replace your lawn with a shrubbery</p><br><br><p>Photo by <a href=\"https://unsplash.com/@anniegavin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Annie Gavin</a> on <a href\"https://unsplash.com/photos/a-garden-filled-with-lots-of-different-types-of-flowers-MJwb8dEQmr0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>";
+        resultDiv.innerHTML = "<img src=\"shrubbery.jpg\" alt=\"a shrubbery\"><br><p>You should replace your lawn with a shrubbery</p><br><br><p>Photo by <a href=\"https://unsplash.com/@anniegavin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Annie Gavin</a> on <a href\"https://unsplash.com/photos/a-garden-filled-with-lots-of-different-types-of-flowers-MJwb8dEQmr0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>";
     }
     else if (score <= 12){
-        resultDiv.innerHTML = "<img src=\"background.jpg\" alt=\"a photo of a forest\"><br><p>Ypuu should replace your lawn with trees</p>";
+        resultDiv.innerHTML = "<img src=\"background.jpg\" alt=\"a photo of a forest\"><br><p>You should replace your lawn with trees</p>";
     }
     else if (score == 13){
-        resultDiv.innerHTML = "<img src=\"pond.png\" alt=\"A pond in a forest\"><br><p>Ypuu should replace your lawn with a pond<br><br>Photo by <a href=\"https://unsplash.com/@johnnyboylee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Johnny Briggs</a> on <a href=\"https://unsplash.com/photos/a-pond-surrounded-by-trees-in-the-middle-of-a-forest-7CdNNvijw9E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a></p>";
+        resultDiv.innerHTML = "<img src=\"pond.png\" alt=\"A pond in a forest\"><br><p>You should replace your lawn with a pond<br><br>Photo by <a href=\"https://unsplash.com/@johnnyboylee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Johnny Briggs</a> on <a href=\"https://unsplash.com/photos/a-pond-surrounded-by-trees-in-the-middle-of-a-forest-7CdNNvijw9E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a></p>";
     }
     element.remove();
     document.getElementById("answer").appendChild(resultDiv);

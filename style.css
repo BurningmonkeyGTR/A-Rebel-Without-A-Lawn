@@ -399,6 +399,18 @@ h2{
         margin-top: 17px;
         position: sticky
     }
+    .answerSplash{
+        margin-top: 1%;
+        grid-column: 0/ span 3;
+        text-align: center;
+        background-color: forestgreen;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5%;
+        color: white;
+        font-family: 'verdana', sans-serif;
+        max-width: 100%;
+    }
 }
 @media only screen and (max-width: 600px) {
     .grid-container {
@@ -410,7 +422,8 @@ h2{
         max-width: 100%;
     }
     .sidebar{
-        grid-area: 20 / 1 / 25;
+        grid-area: 20 / 0 / 25;
+        max-width: 100%;
     }
     .splash{
         grid-column: 1;
@@ -465,6 +478,7 @@ h2{
     }
     .single-image{
         grid-column: 1;
+        max-width: 100%;
     }
     .single-image > img{
         max-height: 300px;
@@ -497,6 +511,24 @@ h2{
         height: 10px;
     }
     .quizForm{
-        grid-column: 1;
+        grid-column: 0;
+        max-width: 100%;
+    }
+    .answerSplash{
+        margin-top: 1%;
+        grid-column: 0;
+        text-align: center;
+        background-color: forestgreen;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5%;
+        color: white;
+        font-family: 'verdana', sans-serif;
+        max-width: 100%;
+    }
+    .answerSplash > div > img{
+        max-height: 440px;
+        max-width:  100%;
+        padding-top: 3%;
     }
 }
